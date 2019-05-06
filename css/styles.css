@@ -10,5 +10,16 @@ body  {
 
 .headline {
   text-align: center;
-  grid-area: 2 / 4 / 2 / 7;
+  grid-area: 1 / 4 / 1 / 7;
+  color: white;
+}
+.headline h1 {
+  text-transform: uppercase;
+}
+
+.employeesDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  grid-area: 2 / 4 / 4/ 7;
 }
