@@ -29,5 +29,9 @@ body  {
 }
 
 .quidProDiv {
-  grid-area: 4 / 2 / 7 / 3;
+  grid-area: 4 / 2 / 7 / 4;
+}
+
+.hostileDiv {
+  grid-area: 4 / 7 / 7 / 9
 }
