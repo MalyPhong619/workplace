@@ -9,6 +9,8 @@ function allowDrop(ev) {
 function quidDrop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
+
+    document.getElementById('hostileInformation').style.display="none";
   document.getElementById('quidInformation').style.display="block";
   document.getElementById('quidImgDefault').style.display = "none";
 
@@ -25,7 +27,7 @@ function quidDrop(ev) {
 function hostileDrop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
-
+  document.getElementById('quidInformation').style.display="none";
   document.getElementById('hostileInformation').style.display="block";
   document.getElementById('hostileImgDefault').style.display = "none";
 
