@@ -110,10 +110,12 @@ p {
     grid-area: 3 / 5;
   }
 }
-
+/*
 @media screen and (max-width: 600px) {
-  * {
-    border: 1px solid blue;
+  body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
   .employeesDiv {
     grid-area: 2 / 5;
@@ -121,5 +123,16 @@ p {
   .quidHostileInformation {
     grid-area: 3 / 5;
   }
-  
-}
+  .imgSize {
+    width: auto;
+    height: 100%;
+  }
+
+  .quidProDiv {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+
+  .hostileDiv {
+    grid-area: 5 / 2 / 6 / 3;
+  }
+} */
