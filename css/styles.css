@@ -23,3 +23,11 @@ body  {
   align-items: flex-end;
   grid-area: 2 / 4 / 4/ 7;
 }
+
+.hidden {
+  display: none;
+}
+
+.quidProDiv {
+  grid-area: 4 / 2 / 7 / 3;
+}
