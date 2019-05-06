@@ -39,7 +39,6 @@ body  {
 }
 
 .hostileDiv {
-  border: 1px solid orange;
   display: flex;
   align-items: flex-end;
   grid-area: 5 / 6 / 8 / 8;
@@ -96,13 +95,19 @@ p {
   }
 
   .quidHostileInformation {
-    grid-area: 4 / 5;
+    border: 1px solid orange;
+    grid-area: 3 / 4 / 4 / 6;
     width: 300px;
     padding: 10px;
     border-radius: 20px;
   }
+  .imgSize {
+    border: 1px solid orange;
+    height: 300px;
+    width: auto;
+  }
 }
-
+/*
 @media screen and (max-width: 768px) {
   * {
     border: 1px solid blue;
@@ -123,4 +128,4 @@ p {
     width: auto;
   }
 
-}
+} */
