@@ -6,6 +6,7 @@ body  {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
+  font-family: arial;
 }
 
 .headline {
@@ -38,13 +39,25 @@ body  {
 
 .quidHostileInformation {
   grid-area: 5 / 5;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-h4 {
+.quidInformation, .hostileInformation {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #44556E;
+}
+
+h3 {
+  margin-top: 5px;
   text-transform: uppercase;
   color: #B4C4D9;
 }
 
 p {
+  margin-top: 5px;
   color: white;
 }
