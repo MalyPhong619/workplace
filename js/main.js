@@ -10,8 +10,11 @@ function quidDrop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   document.getElementById('quidInformation').style.display="block";
-  //
-  // if(data == 'womanEmployee') {
-  //
-  // }
+
+  if(data == 'womanEmployee') {
+    console.log("woman")
+
+  } else if (data == 'maleEmployee') {
+    console.log("male")
+  }
 }
