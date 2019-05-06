@@ -72,9 +72,6 @@ p {
 }
 
 @media screen and (max-width: 1440px) {
-  *{
-    border: 1px solid red;
-  }
   body {
     width: 100vw;
     height: 100vh;
@@ -105,4 +102,8 @@ p {
   }
 }
 
-@media screen and (max-width: 1042px) {}
+@media screen and (max-width: 1042px) {
+  * {
+    border: 1px solid blue;
+  }
+}
