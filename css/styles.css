@@ -76,7 +76,7 @@ p {
     height: 100vh;
   }
   .employee {
-    width: 8%;
+    width: 15%;
     height: auto;
   }
 
@@ -107,10 +107,15 @@ p {
     width: auto;
   }
 }
-/*
+
 @media screen and (max-width: 768px) {
   * {
     border: 1px solid blue;
+  }
+
+  .employee {
+    width: 10%;
+    height: auto;
   }
 
   .headline {
@@ -128,4 +133,4 @@ p {
     width: auto;
   }
 
-} */
+}
