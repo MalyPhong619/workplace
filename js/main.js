@@ -25,5 +25,17 @@ function quidDrop(ev) {
 function hostileDrop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
-  console.log(data);
+
+  document.getElementById('hostileInformation').style.display="block";
+  document.getElementById('hostileImgDefault').style.display = "none";
+
+  if(data == 'womanEmployee') {
+    document.getElementById('hostileInfoWoman').style.display = "block";
+    document.getElementById('hostileInfoMan').style.display = "none";
+
+  } else if (data == 'maleEmployee') {
+    document.getElementById('hostileInfoMan').style.display = "block";
+    document.getElementById('hostileInfoWoman').style.display = "none";
+  }
+
 }
