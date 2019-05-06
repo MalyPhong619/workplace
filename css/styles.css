@@ -1,5 +1,9 @@
 body  {
   margin: 0;
+  width: 100vw;
   height: 100vh;
   background: linear-gradient(to bottom, #303f9f 0%,#303f9f 75%,#000000 75%,#9b9b9b 75%,#9b9b9b 100%);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
 }
