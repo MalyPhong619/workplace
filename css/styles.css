@@ -76,7 +76,7 @@ p {
     height: 100vh;
   }
   .headline {
-      grid-area: 1 / 3 / 1 / 7;
+    grid-area: 1 / 3 / 1 / 7;
   }
   .employee {
     width: 15%;
