@@ -10,11 +10,14 @@ function quidDrop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   document.getElementById('quidInformation').style.display="block";
+  document.getElementById('quidImgDefault').style.display = "none";
 
   if(data == 'womanEmployee') {
-    console.log("woman")
+    document.getElementById('quidInfoWoman').style.display = "block";
+    document.getElementById('quidInfoMan').style.display = "none";
 
   } else if (data == 'maleEmployee') {
-    console.log("male")
+    document.getElementById('quidInfoMan').style.display = "block";
+    document.getElementById('quidInfoWoman').style.display = "none";
   }
 }
