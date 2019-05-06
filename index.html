@@ -13,14 +13,13 @@
 
     <div class="employeesDiv">
 
-        <img class="employee" draggable="true" src="images/drag-woman.png" alt="draggable woman employee" ondragstart="drag(event)">
+        <img class="employee" id="womanEmployee" draggable="true" src="images/drag-woman.png" alt="draggable woman employee" ondragstart="drag(event)">
 
-
-        <img class="employee" draggable="true" src="images/drag-man.png" alt="draggable man employee" ondragstart="drag(event)">
+        <img class="employee" id="maleEmployee" draggable="true" src="images/drag-man.png" alt="draggable man employee" ondragstart="drag(event)">
     </div>
 
     <div class="quidHostileInformation">
-      <div class="quidInformation hidden">
+      <div class="hidden" id="quidInformation">
         <h3>Quid Pro Quo</h3>
         <p>means "something for something" or "this for that." Example: An employee must submit to a supervisor's sexually harassing conduct in order to get promoted byt the supervisor.</p>
       </div>
@@ -30,16 +29,18 @@
       </div>
     </div>
 
-    <div class="quidProDiv">
-      <img src="images/quid-empty.png" alt="">
+    <div class="quidProDiv" id="quidProid" ondragover="allowDrop(event)" ondrop="quidDrop(event)" rop(eveondrop="dnt)">
+      <!-- <img src="images/quid-empty.png" alt="">
       <img class="quidInfoWoman hidden" src="images/quid-withwoman.png" alt="Quid Pro Quo with woman">
-      <img class="quidInfoMan hidden" src="images/quid-withman.png" alt="Quid Pro Quo with man">
+      <img class="quidInfoMan hidden" src="images/quid-withman.png" alt="Quid Pro Quo with man"> -->
+
     </div>
 
     <div class="hostileDiv">
-      <img src="images/hostile-empty.png" alt="">
-      <img class="hostileInfoWoman hidden" src="images/hostile-withwoman.png" alt="Hostile with woman">
-      <img class="hostileInfoMan hidden" src="images/hostile-withman.png" alt="Hostile with man">
+      <!-- <img src="images/hostile-empty.png" alt=""> -->
+      <!-- <img class="hostileInfoWoman hidden" src="images/hostile-withwoman.png" alt="Hostile with woman">
+      <img class="hostileInfoMan hidden" src="images/hostile-withman.png" alt="Hostile with man"> -->
+
     </div>
 
 
