@@ -48,7 +48,7 @@ body  {
 .quidHostileInformation {
   grid-area: 5 / 5;
   width: 300px;
-  padding: 10px;
+  height: 150px;
   border-radius: 20px;
 }
 
@@ -71,19 +71,22 @@ p {
   color: white;
 }
 
-@media screen and (max-width: 1042px) {
+@media screen and (max-width: 1440px) {
+  *{
+    border: 1px solid red;
+  }
   body {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
   }
   .employee {
-    width: 10%;
+    width: 8%;
     height: auto;
   }
 
   .imgSize {
     width: auto;
-    height: 80%;
+    height: 100%;
   }
 
   .quidProDiv {
@@ -100,5 +103,6 @@ p {
     padding: 10px;
     border-radius: 20px;
   }
-
 }
+
+@media screen and (max-width: 1042px) {}
