@@ -103,7 +103,22 @@ p {
 }
 
 @media screen and (max-width: 1042px) {
+  .employeesDiv {
+    grid-area: 2 / 5;
+  }
+  .quidHostileInformation {
+    grid-area: 3 / 5;
+  }
+}
+
+@media screen and (max-width: 600px) {
   * {
     border: 1px solid blue;
+  }
+  .employeesDiv {
+    grid-area: 2 / 5;
+  }
+  .quidHostileInformation {
+    grid-area: 3 / 5;
   }
 }
