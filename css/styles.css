@@ -7,6 +7,7 @@ body  {
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
   font-family: arial;
+
 }
 
 .headline {
@@ -42,7 +43,7 @@ body  {
 .hostileDiv {
   display: flex;
   align-items: flex-end;
-  grid-area: 5 / 7 / 8 / 9;
+  grid-area: 5 / 6 / 8 / 8;
 }
 
 .quidHostileInformation {
@@ -71,7 +72,7 @@ p {
   color: white;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (min-width: 1240px) {
   body {
     width: 100vw;
     height: 100vh;
@@ -91,7 +92,7 @@ p {
   }
 
   .hostileDiv {
-    grid-area: 5 / 6 / 8 / 8;
+    grid-area: 5 / 5 / 8 / 8;
   }
 
   .quidHostileInformation {
@@ -100,39 +101,21 @@ p {
     padding: 10px;
     border-radius: 20px;
   }
+} */
+
+/* @media screen and (max-width: 1024px) {
+* {
+  border: 1px solid blue;
 }
 
-@media screen and (max-width: 1042px) {
-  .employeesDiv {
-    grid-area: 2 / 5;
-  }
-  .quidHostileInformation {
-    grid-area: 3 / 5;
-  }
+body {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 100%;
 }
-/*
-@media screen and (max-width: 600px) {
-  body {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-  }
-  .employeesDiv {
-    grid-area: 2 / 5;
-  }
-  .quidHostileInformation {
-    grid-area: 3 / 5;
-  }
-  .imgSize {
-    width: auto;
-    height: 100%;
-  }
 
-  .quidProDiv {
-    grid-area: 4 / 2 / 5 / 3;
-  }
 
-  .hostileDiv {
-    grid-area: 5 / 2 / 6 / 3;
-  }
+
 } */
