@@ -27,11 +27,14 @@ body  {
 .hidden {
   display: none;
 }
+.quidHostileInformation {
+  grid-area: 5 / 5;
+}
 
 .quidProDiv {
-  grid-area: 4 / 2 / 7 / 4;
+  grid-area: 5 / 2 / 8 / 4;
 }
 
 .hostileDiv {
-  grid-area: 4 / 7 / 7 / 9
+  grid-area: 5 / 7 / 8 / 9;
 }
