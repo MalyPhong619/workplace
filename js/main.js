@@ -10,7 +10,7 @@ function quidDrop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
 
-    document.getElementById('hostileInformation').style.display="none";
+  document.getElementById('hostileInformation').style.display="none";
   document.getElementById('quidInformation').style.display="block";
   document.getElementById('quidImgDefault').style.display = "none";
 

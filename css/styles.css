@@ -54,6 +54,7 @@ body  {
 
 .quid, .hostile {
   width: 300px;
+  height: 150px;
   padding: 10px;
   border-radius: 20px;
   background-color: #44556E;
