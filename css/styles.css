@@ -35,7 +35,6 @@ body  {
 
 .quidProDiv {
   grid-area: 5 / 2 / 8 / 4;
-  border: 1px solid red;
 }
 
 .hostileDiv {
@@ -49,7 +48,7 @@ body  {
   border-radius: 20px;
 }
 
-.quidInformation, .hostileInformation {
+.quid, .hostile {
   width: 300px;
   padding: 10px;
   border-radius: 20px;
