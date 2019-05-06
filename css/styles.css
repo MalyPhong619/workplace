@@ -45,9 +45,9 @@ body  {
 }
 
 .quidHostileInformation {
-  grid-area: 5 / 4;
-  width: 300px;
-  height: 150px;
+  display: flex;
+  justify-content: center;
+  grid-area: 3 / 4 / 3 / 6;
   border-radius: 20px;
 }
 
