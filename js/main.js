@@ -21,3 +21,9 @@ function quidDrop(ev) {
     document.getElementById('quidInfoWoman').style.display = "none";
   }
 }
+
+function hostileDrop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  console.log(data);
+}
