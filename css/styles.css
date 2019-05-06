@@ -2,7 +2,7 @@ body  {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #303f9f 0%,#303f9f 75%,#000000 75%,#9b9b9b 75%,#9b9b9b 100%);
+  background: linear-gradient(to bottom, #33425C 0%,#33425C 75%,#000000 75%,#7A7A7A 75%,#7A7A7A 100%);
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -27,9 +27,6 @@ body  {
 .hidden {
   display: none;
 }
-.quidHostileInformation {
-  grid-area: 5 / 5;
-}
 
 .quidProDiv {
   grid-area: 5 / 2 / 8 / 4;
@@ -37,4 +34,17 @@ body  {
 
 .hostileDiv {
   grid-area: 5 / 7 / 8 / 9;
+}
+
+.quidHostileInformation {
+  grid-area: 5 / 5;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #B4C4D9;
+}
+
+p {
+  color: white;
 }
