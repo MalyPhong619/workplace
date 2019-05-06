@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/styles.css">
-  <script type="text/javascript" href="js/main.js"></script>
-  <title>Workplace</title>
-</head>
-<body>
-  <div class="headline">
-    <h1>Two Types Of Harrassment</h1>
-    <p>Click and Drag the employees to reveal more information.</p>
-  </div>
-
-  <div class="employeesDiv">
-    <div class="employee" draggable="true">
-      <img src="images/drag-woman.png" alt="draggable woman employee">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Workplace</title>
+  </head>
+  <body>
+    <div class="headline">
+      <h1>Two Types Of Harrassment</h1>
+      <p>Click and Drag the employees to reveal more information.</p>
     </div>
-    <div class="employee" draggable="true">
-      <img src="images/drag-man.png" alt="draggable man emploee">
+
+    <div class="employeesDiv">
+
+        <img id="employee" draggable="true" src="images/drag-woman.png" alt="draggable woman employee" ondragstart="drag(event)">
+
+
+        <!-- <img class="employee" draggable="true" src="images/drag-man.png" alt="draggable man employee"> -->
     </div>
-  </div>
 
-  <div class="quidHostileInformation">
-    <div class="quidInformation hidden">
-      <h3>Quid Pro Quo</h3>
-      <p>means "something for something" or "this for that." Example: An employee must submit to a supervisor's sexually harassing conduct in order to get promoted byt the supervisor.</p>
+    <div class="quidHostileInformation">
+      <div class="quidInformation hidden">
+        <h3>Quid Pro Quo</h3>
+        <p>means "something for something" or "this for that." Example: An employee must submit to a supervisor's sexually harassing conduct in order to get promoted byt the supervisor.</p>
+      </div>
+      <div class="hostileInformation hidden">
+        <h3>Hostile Work Environment</h3>
+        <p>is demonstrated by severe or pervasive conduct that creates a work environment a reasonable person would consider intimidating, hostile, or abusive.</p>
+      </div>
     </div>
-    <div class="hostileInformation hidden">
-      <h3>Hostile Work Environment</h3>
-      <p>is demonstrated by severe or pervasive conduct that creates a work environment a reasonable person would consider intimidating, hostile, or abusive.</p>
+
+    <div class="quidProDiv">
+      <img src="images/quid-empty.png" alt="">
+      <img class="quidInfoWoman hidden" src="images/quid-withwoman.png" alt="Quid Pro Quo with woman">
+      <img class="quidInfoMan hidden" src="images/quid-withman.png" alt="Quid Pro Quo with man">
     </div>
-  </div>
 
-  <div class="quidProDiv">
-    <img src="images/quid-empty.png" alt="">
-    <img class="quidInfoWoman hidden" src="images/quid-withwoman.png" alt="Quid Pro Quo with woman">
-    <img class="quidInfoMan hidden" src="images/quid-withman.png" alt="Quid Pro Quo with man">
-  </div>
-
-  <div class="hostileDiv">
-    <img src="images/hostile-empty.png" alt="">
-    <img class="hostileInfoWoman hidden" src="images/hostile-withwoman.png" alt="Hostile with woman">
-    <img class="hostileInfoMan hidden" src="images/hostile-withman.png" alt="Hostile with man">
-  </div>
+    <div class="hostileDiv">
+      <img src="images/hostile-empty.png" alt="">
+      <img class="hostileInfoWoman hidden" src="images/hostile-withwoman.png" alt="Hostile with woman">
+      <img class="hostileInfoMan hidden" src="images/hostile-withman.png" alt="Hostile with man">
+    </div>
 
 
-</body>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>

@@ -25,6 +25,10 @@ body  {
   grid-area: 2 / 4 / 4/ 7;
 }
 
+#employee {
+  cursor: pointer;
+}
+
 .hidden {
   display: none;
 }
